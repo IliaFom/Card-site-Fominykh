@@ -21,7 +21,15 @@ time, mark, audio, video, button {
 	border: 0;
 	vertical-align: baseline;
 }
+
+/*Добавил button в списке вверху */
 /* HTML5 display-role reset for older browsers */
+
+hr{
+	margin: 0;
+}
+
+/* Добавил hr */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section 
 footer, header, hgroup, main, menu, nav, section {

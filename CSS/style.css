@@ -3,11 +3,11 @@
 a {
 color: black;
 padding: 20px;
-/* display: inline-block; */
+display: inline-block;
 text-decoration: none;
 }
 
-li {
+li:not(:last-child) {
     margin: 0px 0px 5px 0px;
 }
 
@@ -17,8 +17,6 @@ color: peru;
 
 .wrapper1 {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 img {
@@ -34,7 +32,7 @@ h1, h2 {
 }
 
 h2{
-    margin: 25px 0px;
+    margin: 20px 0px;
 }
 
 h1 {
@@ -91,6 +89,10 @@ ul{
 
 .element{
     align-self: center;
+}
+
+.footer-link{
+    padding: 0;
 }
 
 
