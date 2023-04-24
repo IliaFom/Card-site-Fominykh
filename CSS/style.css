@@ -1,98 +1,110 @@
 
 
 a {
-color: black;
-padding: 20px;
-display: inline-block;
-text-decoration: none;
-}
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    }
+    
+    li:not(:last-child) {
+        margin: 0px 0px 5px 0px;
+    }
+    
+    a:hover {
+    color: peru;
+    }
+    
+    .wrapper1 {
+        text-align: center;
+    }
+    
+    img {
+        border: 2px solid black;
+    
+    }
+    h1{
+        margin: 20px 0px 20px 0px;
+    }
+    
+    h1, h2 {
+        color: gray;
+    }
+    
+    h2{
+        margin: 20px 0px;
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    ul li{
+        list-style: disc;
+    }
+    
+    .wrappertwo {
+        display: flex;
+        background-color: lightgray;
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 400px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+    }
+    
+    h2, p {
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    p{
+        margin: 0px 50px 10px 50px;
+    }
+    
+    .prof {
+        margin: 0px 50px 20px 70px;
+    }
+    
+    ul{
+        margin: 0px 50px 10px 70px;
+    }
+    
+    .subtext, h1{
+        font-family: Vollkorn, serif;
+    
+    }
+    
+    .subtext {
+        /* border-left: 5px solid chocolate; */
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        background: url(../Images/info_black_24dp.svg) 0 0 no-repeat;
+        line-height: 28px;
+    }
+    
+    .element{
+        align-self: center;
+    }
+    
+    .footer-link{
+        padding: 0;
+    }
+    
+    .separator{
+        border: 1px solid #E8E7E7;
+    }
 
-li:not(:last-child) {
-    margin: 0px 0px 5px 0px;
-}
-
-a:hover {
-color: peru;
-}
-
-.wrapper1 {
-    text-align: center;
-}
-
-img {
-    border: 2px solid black;
-
-}
-h1{
-    margin: 20px 0px 20px 0px;
-}
-
-h1, h2 {
-    color: gray;
-}
-
-h2{
-    margin: 20px 0px;
-}
-
-h1 {
-    text-align: center;
-}
-
-ul{
-    list-style: disc;
-}
-
-.wrappertwo {
-    display: flex;
-    background-color: lightgray;
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 400px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    column-gap: 10px;
-}
-
-h2, p {
-    display: block;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-p{
-    margin: 0px 50px 10px 50px;
-}
-
-.prof {
-    margin: 0px 50px 20px 72px;
-}
-
-ul{
-    margin: 0px 50px 0px 72px;
-}
-
-.subtext, h1{
-    font-family: Vollkorn, serif;
-
-}
-
-.subtext {
-    /* border-left: 5px solid chocolate; */
-    padding-left: 30px;
-    display: flex;
-    align-items: center;
-    background: url(../Images/info_black_24dp.svg) 0 0 no-repeat;
-    line-height: 28px;
-}
-
-.element{
-    align-self: center;
-}
-
-.footer-link{
-    padding: 0;
-}
+    footer {
+        padding-bottom: 15px;
+    }
 
 
